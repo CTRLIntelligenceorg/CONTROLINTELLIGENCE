@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="/CSS/contact.css">
+</head>
+
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
+  
+
+ 
+</head>
+
+<body>
+
+ 
+
+
+  <nav class="navbar">
+    <div class="brand-title">Ctrl</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="/HTML/index.html">Home</a></li>
+        <li><a href="#">Cool Apps</a></li>
+        <li><a href="/HTML/about-us.html">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="/HTML/contact-us.html">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <section>
+  	<div class="coder">
+  		<form action="https://formspree.io/f/xjvlogyy" method="POST" id="my-form">
+
+  			<div class="form-group">
+  				<label for="firstName">First Name</label>
+  				<input type="text" id="firstName" name="firstName">
+  			</div>
+
+  			<div class="form-group">
+  				<label for="lastName">Last Name</label>
+  				<input type="text" id="lastName" name="lastName">
+  			</div>
+
+  			<div class="form-group">
+  				<label for="email">Email</label>
+  				<input type="email" id="email" name="email">
+  			</div>
+
+  			<div class="form-group">
+  				<label for="message">Message</label>
+  				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+  			</div>
+
+  			<button type="submit">Submit</button>
+  		</form>
+  	</div>
+
+  	<div id="status"></div>
+  </section>
+
+<!--footer-->
+
+<hr>
+
+
+<footer class="container">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>© 2022–2023 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
+
+  <!--JAVA SCRIPT -->
+<script src="/JS/contact-us.js"></script>
+<script>
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+</script>
+</body>
+
+</body>
+
+</html>
