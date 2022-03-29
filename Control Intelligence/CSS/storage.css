@@ -1,0 +1,23 @@
+
+  
+  @media (width:700px){
+    .img-slider{
+      margin-bottom: -15vw;
+    }
+  }
+  
+  @media (width:1200px){
+    .img-slider{
+      margin-bottom: 10vw;
+    }
+  }
+  @media (width:560px){
+    .img-slider{
+      margin-bottom: -20vw;
+    }
+  }
+  @media (width:801px) {
+    .img-slider{
+      margin-bottom: -5vw;
+    }
+  }
